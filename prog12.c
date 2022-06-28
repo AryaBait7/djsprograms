@@ -8,5 +8,4 @@ int main(){
     printf("Enter value of r");
     scanf("%d",&r);
 
-    int ncr=
 }
