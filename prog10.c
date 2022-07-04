@@ -12,12 +12,20 @@ int main()
     int x=0;
     int y=1;
 
-    while(n!=0){
+    // while(n!=0){ // Using while loop
+    //     printf("%d  ",x
+    //     int z=x+y;
+    //     x=y;
+    //     y=z;
+    //     n--;
+    // }
+
+    // Using for loop
+    for(int i=n;i!=0;i--){
         printf("%d  ",x);
         int z=x+y;
         x=y;
         y=z;
-        n--;
     }
 
 }
