@@ -5,7 +5,7 @@
 
 int main()
 {
-    int n;
+    int n; //n=5
     printf("Enter a number:");
     scanf("%d",&n);
     // int row=n;
