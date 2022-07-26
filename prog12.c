@@ -1,7 +1,21 @@
-#include<stdio.h>
-#include<conio.h>
-#include<math.h>
-int main(){
-    // Same as Q.11
 
+#include <stdio.h>
+ 
+int factorial(int n) {
+    int factorial = 1;
+    for (int i = 2; i <= n; i++)
+        factorial = factorial * i;
+    return factorial;
+}
+ 
+int nCr(int n, int r) {
+    return factorial(n) / (factorial(r) * factorial(n - r));
+}
+ 
+int main() {
+    int n,r;
+    printf("Enter value of n and r:\n");
+    scanf("%d %d",&n,&r);
+    printf("%d", nCr(n, r));
+    return 0;
 }
