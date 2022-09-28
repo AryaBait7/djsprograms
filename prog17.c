@@ -13,7 +13,7 @@ void getMatrixElements(int matrix[][10], int row, int column) {
    }
 }
 
-// function to multiply two matrices
+// function to multiply two matrices2
 void multiplyMatrices(int first[][10],
                       int second[][10],
                       int result[][10],
